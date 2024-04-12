@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+header{
+    background-color: black;
+    box-shadow: 2px 2px 15px black;
+}
+
+header > img{
+   display: block;
+   background-color: black;
+   width: 50px;
+   margin: auto;
+}
+.fundacao > h2{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fundacao > p{
+    padding: 20px;
+}
+
+.tradicao > h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tradicao > p{
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    letter-spacing: 1px;
+}
+.tradicao{
+    line-height: 20px;
+    margin: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.fundacao{
+    margin: 20px;
+    text-indent: 10px;
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
