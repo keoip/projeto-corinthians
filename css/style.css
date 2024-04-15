@@ -1,12 +1,10 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 *{
     padding: 0;
     margin: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 
 header{
@@ -20,17 +18,22 @@ header > img{
    width: 50px;
    margin: auto;
 }
-.fundacao > h2{
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h3, h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #000000d6, #00000000);
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 30px;
+    letter-spacing: 3px;
+}
+p{
+    font-family: 'Architects Daughter';
 }
 
 .fundacao > p{
     padding: 20px;
 }
 
-.tradicao > h2{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 .tradicao > p{
     margin: 10px;
     text-align: justify;
@@ -39,15 +42,35 @@ header > img{
 }
 .tradicao{
     line-height: 20px;
-    margin: 20px;
+    margin: 25px;
     text-align: justify;
     padding: 10px;
+}
+.titulo{
+    width: 330px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.centro{
+    text-align: center;
 }
 
 .fundacao{
     margin: 20px;
     text-indent: 10px;
     text-align: justify;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Itim';
     font-size: 16px;
 }
+#flex{
+ display: flex;
+ justify-content: center;
+ justify-content: space-between;
+}
+.fundacao > div > img{
+    width: 60px;
+}
+
